@@ -1,0 +1,51 @@
+a {
+    color: #2C2C2C;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #FBCF17;
+    text-decoration: underline;
+}
+
+.app-btn .btn-primary {
+    font-size: 1rem;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #fbcf17;
+    border-color: #fbcf17;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FBCF17;
+    border-color: #FBCF17;
+}
+
+.btn-outline-primary {
+    color: #FBCF17;
+    border-color: #FBCF17;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #FBCF17;
+    border-color: #FBCF17;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #2C2C2C;
+    border-color: #2C2C2C;
+}
+
+.option-collapse .accordion-item .btn-outline-primary {
+    color: #2C2C2C;
+    border-color: #2C2C2C;
+}
