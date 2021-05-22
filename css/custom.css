@@ -9,6 +9,12 @@ a:hover {
     text-decoration: underline;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2C2C2C;
+    border-color: #2C2C2C;
+}
+
 .app-btn .btn-primary {
     font-size: 1rem;
 }

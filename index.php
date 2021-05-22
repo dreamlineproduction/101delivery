@@ -44,7 +44,7 @@ require dirname(__FILE__).'/'.$relative.'include/head.php';
     <title><?php echo qrcdr()->getString('title'); ?></title>
     <meta name="description" content="<?php echo qrcdr()->getString('description'); ?>">
     <meta name="keywords" content="<?php echo qrcdr()->getString('tags'); ?>">
-    <link rel="shortcut icon" href="<?php echo $relative; ?>images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo $relative; ?>images/favicon.png">
     <link href="<?php echo $relative; ?>bootstrap/<?php echo $rtl['css']; ?>/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $relative; ?>css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo $relative; ?>css/custom.css" rel="stylesheet">
